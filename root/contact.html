@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ddroidd_Frontend Winter Internship 2022</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html"
+        ><img src="./assets/images/ddroidd_logo.svg" alt="Company Logo"
+      /></a>
+      <h1>Winter Internship</h1>
+    </nav>
+    <main class="container">
+      <h2>Application Form</h2>
+      <form action="./thanks.html">
+        <div class="name">
+          <div class="first_name">
+            <label for="firstname">First name:<span>*</span></label>
+            <br />
+            <input
+              type="text"
+              id="first_name"
+              placeholder="First Name"
+              name="first_name"
+              size="80"
+              required
+            />
+          </div>
+          <div class="last_name">
+            <label for="last_name">Last name:<span>*</span></label>
+            <br />
+            <input
+              type="text"
+              id="last_name"
+              placeholder="Last Name"
+              name="last_name"
+              size="80"
+              required
+            />
+          </div>
+        </div>
+        <h3>Address</h3>
+        <div class="first_address">
+          <label for="address_one">Address Line 1:<span>*</span></label
+          ><br />
+          <input
+            type="text"
+            id="address_one"
+            placeholder="Street name & number"
+            name="address_one"
+            size="180"
+            required
+          />
+        </div>
+        <div class="second_address">
+          <label for="address_two">Address Line 2:</label>
+          <br />
+          <input
+            type="text"
+            name="address_two"
+            id="address_two"
+            placeholder="Suite, apartment"
+            size="180"
+          />
+        </div>
+        <div class="third_address">
+          <div>
+            <label for="city">City:<span>*</span></label
+            ><br />
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="City"
+              size="56"
+              required
+            />
+          </div>
+          <div>
+            <label for="state">State:<span>*</span></label
+            ><br />
+            <input
+              type="text"
+              name="state"
+              id="state"
+              placeholder="State"
+              size="56"
+              required
+            />
+          </div>
+          <div>
+            <label for="zip">Zip code:<span>*</span></label
+            ><br />
+            <input
+              type="number"
+              name="zip"
+              id="zip"
+              placeholder="Zip code"
+              required
+            />
+          </div>
+        </div>
+        <h3>Contact information</h3>
+        <div class="contact">
+          <div>
+            <label for="phone">Phone number:<span>*</span></label
+            ><br />
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="555-5555"
+              size="80"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email address:<span>*</span></label
+            ><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="john@doe.com"
+              size="80"
+              required
+            />
+          </div>
+        </div>
+        <div class="btn">
+          <button>Join Us</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>Come to the dark side... we have <i class="fas fa-cookie"></i></p>
+    </footer>
+  </body>
+</html>
